@@ -1,0 +1,50 @@
+/* ============================================================
+   VUS.Life — "Clinical Blueprint" design tokens (single source of truth)
+   Package: @vuslife/design — shared across every VUS.Life surface
+   (currently: vuslife-frontend deck + poster; consumers add themselves here
+   as they start depending on this package).
+   Media-specific overrides (e.g. poster: shadows off) belong in the
+   consumer's own stylesheet, never new values here.
+   Design rationale docs live with the consuming project, e.g. for
+   vuslife-frontend: Postdoc/Projects/vuslife-wiki-project/vuslife-frontend/docs/{DESIGN,PRINT-RULES}.md
+   ============================================================ */
+:root {
+  /* paper / ink */
+  --paper:      #F7F9FB;
+  --paper-2:    #EEF2F6;
+  --paper-3:    #E3EAF0;
+  --card:       #FFFFFF;
+  --ink:        #0E1B2A;
+  --ink-2:      #41566B;
+  --ink-3:      #62778C;   /* 4.39:1 on paper — captions/metadata only; body-size text uses --ink-2. Deck used #74879A (3.51:1) until 2026-09-21 */
+  --line:       #D3DDE6;
+  --line-2:     #C2CFDA;
+
+  /* signal accent (teal) */
+  --teal:       #0E9BA6;
+  --teal-deep:  #0A6E76;
+  --teal-tint:  #E2F4F4;
+  --teal-glow:  rgba(14, 155, 166, 0.16);
+
+  /* semantic data colours — always paired with a word or glyph, never colour alone */
+  --up:         #C2410C;   /* pathogenic / upgrade — brick red */
+  --up-tint:    #FBEAE1;
+  --down:       #2563A0;   /* benign / downgrade — cobalt blue */
+  --down-tint:  #E5EEF7;
+  --vus:        #8A6D1F;   /* uncertain — amber; fills, pills, borders */
+  --vus-tint:   #F6EFDC;
+  --vus-ink:    #6B531A;   /* amber for body-size text: 6.36:1 on --vus-tint, 6.9:1 on white */
+  --flag:       #7C3AED;   /* incidental / secondary finding */
+  --flag-tint:  #EEE7FB;
+
+  /* elevation — screen only; print media set these to none (see consumer's PRINT-RULES.md) */
+  --shadow-1: 0 1px 2px rgba(14,27,42,.05);
+  --shadow-2: 0 4px 14px rgba(14,27,42,.07);
+  --shadow-3: 0 18px 48px rgba(14,27,42,.13);
+
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-body:    "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono:    "IBM Plex Mono", ui-monospace, monospace;
+
+  --u: 8px; /* base spacing unit */
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@vuslife/design",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "VUS.Life shared design tokens and icon glyphs (the 'Clinical Blueprint' visual language). Single source of truth for color/icon semantics across every VUS.Life surface.",
+  "main": "glyphs.tsx",
+  "exports": {
+    ".": "./glyphs.tsx",
+    "./tokens.css": "./tokens.css",
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "peerDependenciesMeta": {
+    "react": { "optional": true }
+  }
+}

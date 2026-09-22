@@ -13,7 +13,13 @@ Extracted 2026-09-22 from `vuslife-frontend` (deck + poster). As of the same day
 
 This package lives in the public `vus-life` repo (`github.com/98baxian/vus-life`), which is the home for VUS.Life UI engineering and publicly shareable material. Its private consumer `vuslife-frontend` (the conference deck + poster generator, which lives in a separate private workspace) reaches it through a `file:` dependency.
 
-That means **`vuslife-frontend` cannot build from a fresh clone until this repo is also cloned and linked**:
+> **Not pushed yet (as of 2026-09-22).** This package exists only in a local
+> commit; `git clone` of the public repo will *not* include it, so the recovery
+> path below does not work until someone runs `git push origin main`. Until then
+> the only copy is the working directory on this machine — back it up accordingly
+> or push it.
+
+Once pushed, **`vuslife-frontend` still cannot build from a fresh clone until this repo is also cloned and linked**:
 
 ```bash
 git clone https://github.com/98baxian/vus-life.git /Workspace/postdoc-projects/vus-research/vus-life

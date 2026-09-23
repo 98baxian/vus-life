@@ -10,6 +10,12 @@ Ready to see the magic in action?
 
 👉 **[Check out the detailed performance results here!](Results/README.md)**
 
+### 🔬 In Development: VUS Reanalysis Pipeline
+
+We're also building a pipeline that reopens historical genetic reports and re-scores their reported VUS against today's evidence: the ACMG/AMP criteria, applied to public databases and literature. Each result is a candidate for a clinical geneticist to review, not a diagnosis. It's under active development.
+
+For a first look, check out the slides from the MCW Postdoc Research Symposium 2026: 👉 **[vuslife-pre-symposium-2026.vercel.app](https://vuslife-pre-symposium-2026.vercel.app)**
+
 ---
 
 ### 🤖 AI Interpretation (API)

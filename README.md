@@ -33,13 +33,38 @@ To be the first to know when the desktop app drops, click the "Watch" button at 
 
 ---
 
-### 📜 Read The Paper
+### 📜 Citation & Published Paper
 
-For a deep dive into how it all works, you can read our full paper [Link](https://www.researchsquare.com/article/rs-8605164/v1):
-**Predicting Genetic Variant Pathogenicity Using Vector Embeddings**
+For details on the methodology and experimental validation, please read and cite our published article in *Scientific Reports*:
+
+> **Semantic embedding of variant effect annotations enables rapid and accurate pathogenicity prediction with VUS. Life**  
+> Jiawei Wu, Marissa Stutzman, Michael Muriello, Joy Lincoln, Donald G. Basel, and Xiaowu Gai  
+> *Scientific Reports* (2026).  
+> **Article URL:** [https://www.nature.com/articles/s41598-026-54844-y](https://www.nature.com/articles/s41598-026-54844-y)
+
+```bibtex
+@article{wu2026semantic,
+  title={Semantic embedding of variant effect annotations enables rapid and accurate pathogenicity prediction with VUS. Life},
+  author={Wu, Jiawei and Stutzman, Marissa and Muriello, Michael and Lincoln, Joy and Basel, Donald G and Gai, Xiaowu},
+  journal={Scientific Reports},
+  year={2026},
+  publisher={Nature Publishing Group UK London}
+}
+```
+
+Earlier preprint: [Research Square](https://www.researchsquare.com/article/rs-8605164/v1).
 
 ### 📜 Patent
 
 U.S. Provisional Patent Application No. 63/821,249, filed June 10, 2025.
 
-### Acknowledgments
+### 🙏 Acknowledgments
+
+We gratefully acknowledge the following open-source projects, tools, and repositories for their inspiration and contributions to AI-driven genomics and agent ecosystems:
+
+- [alphagenome-mcp](https://github.com/taehojo/alphagenome-mcp) — Model Context Protocol (MCP) server for AlphaGenome genomic variant interpretation.
+- [science-skills](https://github.com/google-deepmind/science-skills?ref=explainx) — Google DeepMind repository of specialized skills for scientific research.
+- [ClawBio](https://github.com/ClawBio/ClawBio) — Bioinformatics-native AI agent skill library.
+- [OpenClaw-Medical-Skills](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills) — Curated open-source biomedical and clinical AI agent skill library.
+- [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) — Curated scientific agent skills and database integrations for AI research assistants.
+
